@@ -14,10 +14,6 @@ export class Car {
   set score(score) {
     this.#score = score;
   }
-
-  getScoreCount() {
-    return this.#score.length;
-  }
 }
 
 export class RacingCarGame {

@@ -7,10 +7,3 @@ export const generateRandomInt = (length = 1) => {
 
 export const range = (length, { start = 0, step = 1 } = {}) =>
   Array.from({ length }, (_, i) => start + i * step);
-
-export const cloneInstance = (instance) => {
-  return Object.assign(
-    Object.create(Object.getPrototypeOf(instance)),
-    structuredClone(instance)
-  );
-};

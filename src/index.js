@@ -5,27 +5,6 @@ const $carNamesSubmitButton = document.querySelector(".car-names-submit");
 const $racingCountPanel = document.querySelector(".racing-count");
 const $racingGameResult = document.querySelector(".racing-game-result");
 
-// const racingGameFormState = {
-//   carNames: [],
-//   racingCount: 0,
-// };
-
-// const getCarNames = () => {
-//   return [...racingGameFormState.carNames];
-// };
-
-// const setCarNames = (names) => {
-//   racingGameFormState.carNames = names;
-// };
-
-// const getRacingCount = () => {
-//   return racingGameFormState.racingCount;
-// };
-
-// const setRacingCount = (racingCount) => {
-//   racingGameFormState.racingCount = racingCount;
-// };
-
 const showRacingCountPanel = () => {
   $racingCountPanel.dataset.visible = "true";
 };

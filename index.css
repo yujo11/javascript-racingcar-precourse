@@ -1,0 +1,17 @@
+.racing-count {
+  display: none;
+}
+
+.racing-count[data-visible="true"] {
+  display: block;
+}
+
+.racing-game-result {
+  display: none;
+}
+
+.racing-game-result[data-visible="true"] {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
